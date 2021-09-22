@@ -17,7 +17,7 @@ Steps to reproduce this crash:
 
 Assertion: "Assertion failed: Py_IS_TYPE(rl, &PyRunningLoopHolder_Type), file D:\a\1\s\Modules\_asynciomodule.c, line 261"
 
-Assumption: cached_running_holder is a static variable that is not reset after the interpreter is re-initialized.
+Assumption: cached_running_holder is a static variable that is not reset after the (sub-)interpreter is re-initialized.
 
 
 
